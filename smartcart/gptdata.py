@@ -1,7 +1,9 @@
 
 from groq import Groq
+import os
 
-client = Groq(api_key="")
+client = Groq(api_key=os.environ.get("groq_api"))
+
 
 # ----------------------------- Gita QA Logic -----------------------------
 def get_data(prompt):
