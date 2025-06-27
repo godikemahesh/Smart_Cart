@@ -199,5 +199,3 @@ def scrape_all(query, platforms):
 
 
 
-result=scrape_shopclues("mobiles")
-print(result)
