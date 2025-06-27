@@ -7,7 +7,7 @@ services:
       apt-get update && apt-get install -y wget gnupg unzip curl libnss3 libatk1.0-0 libxss1 libasound2 libxss1 libxshmfence1 libgbm-dev
       pip install -r requirements.txt
       playwright install
-    startCommand: streamlit run app.py --server.port $PORT --server.enableCORS false
+    startCommand: streamlit run main2.py --server.port $PORT --server.enableCORS false
     envVars:
       - key: PYTHONUNBUFFERED
         value: "true"
