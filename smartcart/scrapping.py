@@ -1,8 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+
 
 import time
 HEADERS = {
