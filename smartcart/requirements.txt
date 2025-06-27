@@ -1,0 +1,12 @@
+streamlit
+requests
+beautifulsoup4
+playwright
+opencv-python-headless
+numpy
+Pillow
+transformers
+torch
+ultralytics
+groq
+lxml
